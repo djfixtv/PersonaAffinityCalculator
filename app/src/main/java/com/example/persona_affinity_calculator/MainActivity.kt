@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,7 +20,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var personaAffinities: Map<String, List<String>>
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
+
+        // Optional: Keep splash screen on-screen for longer if needed
+        splashScreen.setKeepOnScreenCondition { false }
+
         setContentView(R.layout.activity_main)
 
         // Initialize personaAffinities HERE, inside onCreate,

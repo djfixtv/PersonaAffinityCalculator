@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.PersonaAffinityCalculator" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/p5ac</item>
+        <item name="postSplashScreenTheme">@style/Theme.PersonaAffinityCalculator</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+    </style>
 </resources>
