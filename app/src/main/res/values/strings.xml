@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Persona Affinity Calculator</string>
+    <string name="title">Persona 5\nAffinity Calculator</string>
+    <string name="selected_traits_none_default">Selected traits: None</string>
+    <string name="select_traits_prompt">Select Your Personality Traits:</string>
+
+    <string name="trait_leader">Leader</string>
+    <string name="trait_loyal">Loyal</string>
+    <string name="trait_artistic">Artistic</string>
+    <string name="trait_smart">Smart</string>
+    <string name="trait_curious">Curious</string>
+    <string name="trait_strong">Strong</string>
+
+    <string name="button_calculate_match">Calculate Match</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_info">ℹ How it Works</string>
+
+    <string name="no_traits_selected_message">Please select some personality traits first!</string>
+    <string name="selected_traits_format">Selected traits: %s</string>
+    <string name="no_match_found">No Match Found</string>
+    <string name="result_text_format">Your Persona 5 character match:\n\n%1$s (%2$d%% match)\n\nMatching traits: %3$d/%4$d</string>
+
+
+    <string name="dialog_title_info">Persona Affinity Calculator</string>
+    <string name="dialog_message_info">
+        Welcome to the Persona 5 Affinity Calculator!\n\n
+        How it works:\n
+        1. Select personality traits that describe you\n
+        2. Tap \'Calculate\' to find your P5 character match\n
+        3. The app analyzes your traits against each character\n
+        4. Get your percentage match!\n\n
+        Characters included:\n
+        • Joker • Ryuji • Ann\n
+        • Yusuke • Makoto • Futaba\n\n
+        Have fun discovering your Persona!
+    </string>
+    <string name="dialog_ok_button">Got it!</string>
+
+    <string name="char_joker">Joker</string>
+    <string name="char_ryuji">Ryuji</string>
+    <string name="char_ann">Ann</string>
+    <string name="char_yusuke">Yusuke</string>
+    <string name="char_makoto">Makoto</string>
+    <string name="char_futaba">Futaba</string>
+
+    <string name="info_button" >ℹ How it Works</string>
+    <string name="clear_button"> clear </string>
+    <string name="calculate_button" >Calculate Match</string>
+    <string name="selected_traits_default">Selected traits: None</string>
+
+</resources>
